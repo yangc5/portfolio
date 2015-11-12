@@ -1,0 +1,50 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.nav a {
+    color: black;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+
+.jumbotron {
+    height: 500px;
+    background-image: url('images/fish_in_pond_mesh.JPG');
+    background-repeat: no-repeat;
+    background-attachedment: fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.jumbotron h1 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.jumbotron p {
+    color: #fff;
+    font-size: 20px;
+}
+
+.nav li {
+    display: inline;
+}
+
+.jumbotron .container {
+    position: relative;
+    top: 100px;
+}
