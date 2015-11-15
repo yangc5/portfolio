@@ -20,7 +20,7 @@ body {
 
 .jumbotron {
     height: 500px;
-    background-image: url('images/fish_in_pond_mesh.JPG');
+    background-image: url('https://images.unsplash.com/photo-1442120108414-42e7ea50d0b5?ixlib=rb-0.3.5&q=80&fm=jpg&s=ad5970f6985fdce4d60404ba4b39d5b6');
     background-repeat: no-repeat;
     background-attachedment: fixed;
     background-position: center center;
@@ -30,10 +30,71 @@ body {
     background-size: cover;
 }
 
-.jumbotron h1 {
-    color: #fff;
-    font-size: 48px;
-    font-weight: bold;
+a.btn {
+  background-color: rgba(0,0,0,0.9);
+  border-radius: 0;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 100;
+  height: 60px;
+  line-height: 60px;
+  margin: 40px 0;
+  padding: 0;
+  transition: background-color .5s;
+  width: 200px;
+}
+
+a.btn:hover {
+  background-color: violet;
+}
+
+.right {
+  float: right;
+}
+
+.highlight {
+  background-color: #333;
+  color: white;
+  padding: 4px;
+}
+
+.footer {
+    background-color: #fff;
+    height: 200px;
+    text-align: right;
+    width: 100%;
+}
+
+.footer .social_media {
+    margin: 65px 0 20px;
+    width: 100%;
+}
+
+.social_media li {
+    display: inline-block;
+    height: 24px;
+    margin: 0 0 0 10px;
+    text-align: left;
+    text-indent: -9999px;
+    width: 24px;
+}
+
+.social_media li a {
+    display: block;
+    height: 24px;
+    width: 24px;
+}
+
+.github {
+    background-image: url('/assets/github.png');
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+.linkedin {
+    background-image: url('/assets/linked5.png');
+    background-position: center center;
+    background-size: 100% 100%;
 }
 
 .jumbotron p {
