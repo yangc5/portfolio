@@ -20,14 +20,22 @@ body {
 
 .jumbotron {
     height: 500px;
-    background-image: url('https://images.unsplash.com/photo-1442120108414-42e7ea50d0b5?ixlib=rb-0.3.5&q=80&fm=jpg&s=ad5970f6985fdce4d60404ba4b39d5b6');
     background-repeat: no-repeat;
     background-attachedment: fixed;
-    background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+.welcome {
+  background-image: url('https://images.unsplash.com/photo-1442120108414-42e7ea50d0b5?ixlib=rb-0.3.5&q=80&fm=jpg&s=ad5970f6985fdce4d60404ba4b39d5b6');
+  background-position: center center;
+}
+
+.about {
+  background-image: url('https://res.cloudinary.com/dsw8fvr45/image/upload/v1447730133/chen_kohmnf.jpg');
+  background-position: top;
 }
 
 a.btn {
