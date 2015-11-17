@@ -2,7 +2,12 @@
 // # All this logic will automatically be available in application.js.
 // # You can use CoffeeScript in this file: http://coffeescript.org/
 
-$(function(){
-  $('.my-slider').unslider();
+$(document).on('page:load', function(){
+  $(".owl-carousel").owlCarousel({
+    navigation : true, // Show next and prev buttons
+    slideSpeed : 300,
+    paginationSpeed : 400,
+    singleItem:true
+  });
   console.log("hey!");
 });
